@@ -3,7 +3,7 @@ title: "Different Kinds of Fun"
 date: 2021-06-05T02:40:39-05:00
 draft: true
 ---
-## Fun.
+### Fun.
 
 It exists. Supposedly. People argue quite a lot about what it *is*. What counts as fun? What makes one game more fun than the other? Is any game 'fun', or is that just a thing people say when they can't come up with a reason the game is good?
 

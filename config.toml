@@ -1,5 +1,5 @@
 baseURL = "http://perfectly-spherical.tk/"
 languageCode = "en-us"
 title = "perfectly spherical"
-theme = "less"
+theme = "sk3"
 noTimes = "true"
