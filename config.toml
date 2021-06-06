@@ -3,3 +3,33 @@ languageCode = "en-us"
 title = "perfectly spherical"
 theme = "sk3"
 noTimes = "true"
+
+[Params]
+mainSections = "posts"
+subtitle = "Game Design In Theory"
+
+opengraph   = true
+twittercards = true
+description = "Game Design In Theory"
+title       = "perfectly spherical"
+
+[Params.color]
+bg     = "#181010"
+border = "#ffb000"
+link   = "#ffcc00"
+text   = "#ffb000"
+
+[Params.socialshare]
+facebook  = false
+instagram = false
+linkedin  = false
+pinterest = false
+reddit    = false
+telegram  = false
+twitter   = true
+vk        = false
+
+[Params.card]
+date    = true
+summary = true
+width   = "32%"
