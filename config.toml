@@ -4,14 +4,18 @@ title = "perfectly spherical"
 theme = "sk3"
 noTimes = "true"
 
+# enable raw html in markdown
+[markup.goldmark.renderer]
+unsafe= true
+
 [Params]
 mainSections = "posts"
 subtitle = "Game Design In Theory"
-
 opengraph   = true
 twittercards = true
 description = "Game Design In Theory"
 title       = "perfectly spherical"
+custom_css = ["/css/sidebar.css"]
 
 [Params.color]
 bg     = "#181010"
