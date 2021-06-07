@@ -1,21 +1,2 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Posts on perfectly spherical</title>
-    <link>http://example.org/posts/</link>
-    <description>Recent content in Posts on perfectly spherical</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sat, 05 Jun 2021 02:40:39 -0500</lastBuildDate><atom:link href="http://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Different Kinds of Fun</title>
-      <link>http://example.org/posts/different-kinds-of-fun/</link>
-      <pubDate>Sat, 05 Jun 2021 02:40:39 -0500</pubDate>
-      
-      <guid>http://example.org/posts/different-kinds-of-fun/</guid>
-      <description>Fun. It exists. Supposedly. People argue quite a lot about what it is. What counts as fun? What makes one game more fun than the other? Is any game &amp;lsquo;fun&amp;rsquo;, or is that just a thing people say when they can&amp;rsquo;t come up with a reason the game is good?
-I propose that the question we&amp;rsquo;re asking is inherently wrong. Fun is not a scalar value. It&amp;rsquo;s not a binary, fun or not-fun.</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on perfectly spherical</title><link>http://perfectly-spherical.tk/posts/</link><description>Recent content in Posts on perfectly spherical</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 05 Jun 2021 02:40:39 -0500</lastBuildDate><atom:link href="http://perfectly-spherical.tk/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Different Kinds of Fun</title><link>http://perfectly-spherical.tk/posts/different-kinds-of-fun/</link><pubDate>Sat, 05 Jun 2021 02:40:39 -0500</pubDate><guid>http://perfectly-spherical.tk/posts/different-kinds-of-fun/</guid><description>Fun. It exists. Supposedly. People argue quite a lot about what it is. What counts as fun? What makes one game more fun than the other? Is any game &amp;lsquo;fun&amp;rsquo;, or is that just a thing people say when they can&amp;rsquo;t come up with a reason the game is good?
+I propose that the question we&amp;rsquo;re asking is inherently wrong. Fun is not a scalar value. It&amp;rsquo;s not a binary, fun or not-fun.</description></item></channel></rss>
