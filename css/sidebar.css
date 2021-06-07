@@ -1,0 +1,14 @@
+aside {
+	width: 21%;
+	padding: 4px;
+	margin-left: 4px;
+	margin-right: 4px;
+	border: 1px solid rgb(255,176,00);
+	display: inline-block;
+	float: right;
+}
+
+#content {
+	display: inline-block;
+	/*margin-left: 15%;*/
+}
