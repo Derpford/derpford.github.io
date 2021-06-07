@@ -1,7 +1,7 @@
 ---
 title: "Different Kinds of Fun"
 date: 2021-06-05T02:40:39-05:00
-draft: true
+draft: false
 ---
 ### Fun.
 
