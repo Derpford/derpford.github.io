@@ -11,11 +11,14 @@ unsafe= true
 [Params]
 mainSections = "posts"
 subtitle = "Game Design In Theory"
+
 opengraph   = true
 twittercards = true
 description = "Game Design In Theory"
 title       = "perfectly spherical"
+
 custom_css = ["/css/sidebar.css"]
+favicon = "/spherical-terminal-orange.svg"
 
 [Params.color]
 bg     = "#181010"
