@@ -9,7 +9,6 @@ noTimes = "true"
 unsafe= true
 
 [Params]
-mainSections = "posts"
 subtitle = "Game Design In Theory"
 
 opengraph   = true
