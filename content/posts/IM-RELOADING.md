@@ -2,7 +2,7 @@
 title: "I'M RELOADING"
 date: 2021-06-15
 publishdate: 2021-06-15
-draft: true
+draft: false
 ---
 
 ### Why, exactly, should this gun reload?
