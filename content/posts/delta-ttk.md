@@ -1,6 +1,6 @@
 ---
 title: "What Does Delta TTK Mean?"
-date: 2021-06-10:34:00-05:00
+date: 2021-06-10
 draft: false
 ---
 
