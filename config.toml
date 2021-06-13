@@ -35,6 +35,20 @@ telegram  = false
 twitter   = true
 vk        = false
 
+[Params.sociallink]
+  facebook       = ""
+  flickr         = ""
+  instagram      = ""
+  linkedin       = ""
+  pinterest      = ""
+  reddit         = ""
+  rss            = true
+  tumblr         = ""
+  twitter        = "https://twitter.com/dan_breez"
+  vimeo          = ""
+  youtubechannel = ""
+  youtubeuser    = ""
+
 [Params.card]
 date    = true
 summary = true
