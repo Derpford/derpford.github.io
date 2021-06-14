@@ -8,6 +8,10 @@ aside {
 	float: right;
 }
 
+.large{
+	width: 35%;
+}
+
 #content {
 	display: inline-block;
 	/*margin-left: 15%;*/
