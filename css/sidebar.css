@@ -12,12 +12,19 @@ aside {
 	width: 35%;
 }
 
+
 @media (max-width: 800px) {
 	aside {
 		width: 95%;
-		float: left;
+		float: unset;
+		margin: auto;
+		max-width: 400px;
 		display: block;
 		padding: 8px;
+	}
+
+	.large {
+		width: 95%;
 	}
 }
 
