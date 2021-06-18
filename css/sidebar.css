@@ -1,5 +1,6 @@
 aside {
 	width: 21%;
+	min-width: 300px;
 	padding: 4px;
 	margin-left: 4px;
 	margin-right: 4px;
@@ -14,5 +15,6 @@ aside {
 
 #content {
 	display: inline-block;
+	font-size: 18px;
 	/*margin-left: 15%;*/
 }
