@@ -13,6 +13,15 @@ aside {
 	width: 35%;
 }
 
+@media (max-width: 800px) {
+	aside {
+		width: 95%;
+		float: left;
+		display: block;
+		padding: 8px;
+	}
+}
+
 #content {
 	display: inline-block;
 	font-size: 18px;
