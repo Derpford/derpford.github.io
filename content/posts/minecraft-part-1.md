@@ -1,7 +1,7 @@
 ---
 title: "My Love-Hate Relationship With Minecraft, Part 1"
 date: 2021-06-22
-draft: true
+draft: false
 tag: "Minecraft"
 ---
 
