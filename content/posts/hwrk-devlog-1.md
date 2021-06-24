@@ -1,7 +1,7 @@
 ---
 title: "Hellwave Roadkill Dev Log 1"
 date: 2021-06-24
-draft: true
+draft: false
 ---
 ### I'm working on a game, in case you didn't know.
 This might not be as surprising as you'd think, depending on how well you know me. I'm basically always working on *something*. That said, a little while ago *THIS* happened:
