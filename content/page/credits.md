@@ -15,4 +15,4 @@ This list is updated on the 2nd of each month, after payments are received.
 Tupolev
 
 #### $3 Tier
-Ebreium, one of the herd
+Ebreium, one of the herd, FanOfMostEverything
