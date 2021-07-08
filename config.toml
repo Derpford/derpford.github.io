@@ -37,7 +37,7 @@ vk        = false
 
 [Params.sociallink]
   rss            = true
-  twitter        = "https://twitter.com/dan_breez"
+  twitter        = "dan_breez"
 
 [Params.card]
 date    = true
