@@ -1,7 +1,7 @@
 ---
 title: "Hellwave Roadkill Devlog 3"
 date: 2021-07-08
-draft: true
+draft: false
 ---
 
 ### Sounds Of Death
