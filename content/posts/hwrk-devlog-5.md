@@ -1,0 +1,33 @@
+---
+title: "Hwrk Devlog 5"
+date: 2021-07-29
+draft: true
+---
+
+### Back In The Saddle.
+The past week or two has been spent mostly working on getting ready for the move, but I've gotten back into working on HWRK. This time around, I prototyped the Sharpgun:
+
+<blockquote class="twitter-tweet" data-theme="dark"><p lang="en" dir="ltr">Finally getting some more work done for Hellwave Roadkill. Placeholder graphics for now, but this is the functionality for the Syringe Shotgun, AKA the Sharpgun.<br><br>Plug someone with a syringe, and they&#39;ll slowly bleed serum for you, and won&#39;t move as fast. This stacks up quickly. <a href="https://t.co/lqUWWeDQwC">pic.twitter.com/lqUWWeDQwC</a></p>&mdash; DanBreez (@dan_breez) <a href="https://twitter.com/dan_breez/status/1420401371258437634?ref_src=twsrc%5Etfw">July 28, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+
+This particular effect occupies a very specific role in the arsenal, so I wanted to talk a bit about what that means and why it matters.
+
+### Every Gun A Tool.
+<aside>What I mean by 'non-choice' here is a thing which <i>looks</i> like a choice, but is actually a no-brainer. Non-choices don't add real choice to your game. They're not inherently bad--across-the-board upgrades can be good in singleplayer games--but you're not expanding the variety of weapons available. Don't confuse a choice between better and worse with more interesting trade-off choices.</aside>
+
+I firmly believe that each gun in your game should have a clear and distinct combat role. The player's weapons are a toolbox that they use to interact with combat, and while real toolboxes can have hundreds of variations on a simple screwdriver, that amount of choice can quickly overwhelm people. More than that, if you follow the path of games like *Call of Duty* and offer lots of different guns within the same category, you're making more work for yourself in the balance department, *AND* the choices end up being obscure and meaningless. If there's twenty different assault rifles, and they all have roughly the same functionality, the choice of a specific assault rifle will either have very little mechanical impact or will be a non-choice.
+
+There's a few clear archetypes that have been around almost as long as games with weapons have existed: the close-range powerhouse, the long-range accurate weapon, the bullet hose, the big explodey gun (which might hurt you, too). There's concepts from other games that can be borrowed here, too. For example, the Sharpgun gives the player what a MOBA veteran would call *crowd control*.
+
+### Damage by itself isn't interesting.
+Someone had to say it, right? Raw damage is just not an interesting thing to have by itself. Sure, there's plenty of guns that people remember *because* of damage, but what makes them fun to use is almost never raw numbers. Instead, it's the conditions that *set up* that damage. The double-barreled shotgun is not memorable *just* because it hits hard, but because you have to make a risky play to use it well. The railgun isn't memorable because it hits hard, but because you feel great when you pull off a long-distance snapshot and get a kill from across the map.
+
+This is another reason why having distinct weapon roles is a good thing--if you think purely in terms of "shotgun" and "bigger shotgun", without thinking about what it means for a gun to *be a shotgun*, you're risking some questionable decisions. This isn't gonna ruin your game, by any means, but I like to aim high.
+
+This ties back into the concept of "crowd control" as MOBA or MMO players would understand it, because crowd control gives your attacks a useful effect that *isn't damage at all*. Being able to slow an enemy down, making them easier to hit with other weapons--or making it possible to safely focus on other targets--grants the player a kind of tool that drastically widens their options in combat. There's a reason I like playing tanks and bruisers in *League of Legends*; pushing enemies around, rooting them in place, and controlling the battlefield by controlling where my enemy can stand is *way* more interesting than simply doing big damage. I suck at Aphelios, but he's one of my favorite ADCs, because rooting an enemy in place with his cannon has more impact on the battle than even the biggest numbers, because it makes everyone's big numbers far more likely to hit.
+
+*That's* why the Sharpgun's big feature is a small-damage attack that slows the target down. I want the player to use the Sharpgun as a way of enabling the rest of their arsenal--hitting a big enemy with three or four syringes, so they can barely move as you line up a shot with a Disgusting Meat Railgun--or so you can wipe the floor with a few smaller enemies using the nailgun, and then come back to the big guy when the battle's a bit less hectic. You won't be able to spam the sharpgun's syringe shot for very long--I've implemented an 'overheat' mechanic that reduces the gun's accuracy and fire rate as you hold down the trigger. You'll be able to cancel out of the firing animation, of course, because I *want* you to swap to another gun and pummel the enemy you just pinned down.
+
+### Ammunition?
+I don't think I'll be using ammunition in this game. The player's already under time pressure due to their need for Serum, and I specifically *don't* want to softlock the player. I'll also have certain kinds of enemies respawn indefinitely, to keep the player's serum count up. The biggest point of failure I can think of in this game is putting the player in a state where they feel like they can't finish the game because of the constraints they have to work within. David Cage may have been an idiot, but he was half-right when he said that Game Over is a failure of the game designer; part of your job is making sure the game feels fair, and that means avoiding cheeky gotcha game-over states.
+
+That said, I'm flirting with the idea of collectibles. Perhaps there can be items that you can pick up to empower your weapons--collecting 100 nail tokens makes your nailgun hit harder, or something like that. One of my design goals--at least for the prototype--is to be sort-of-compatible with *Doom 2*, with my objects set up to replace common enemies and weapons, because A) people will be really happy if they can bring in the ocean of existing Doomer content, and B) it'll make testing and mapmaking easy. This might change if I get published, since I might be switching engines if I get published, but for now I need something to replace clips and bullet boxes, and power-up tokens seems like a good replacement for the ammo that I'm not using.
