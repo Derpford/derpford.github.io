@@ -12,6 +12,12 @@ aside {
 	width: 35%;
 }
 
+.twitter-tweet{
+	display:  block;
+	float: unset;
+	margin: auto;
+}
+
 
 @media (max-width: 800px) {
 	aside {
