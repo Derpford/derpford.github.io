@@ -1,7 +1,7 @@
 ---
 title: "Visual Effects"
 date: 2021-08-10
-draft: true
+draft: false
 ---
 ### Let's make this simple.
 Visual effects--AKA the "look" part of "look and feel", the stuff that flies around the screen to tell you that Things are Happening--should be at least *sort of* obvious. Enemies leak blood when they're shot, rock walls make sparks when your pickaxe hits them, bombs have a big cloud of fire and smoke when they go off, your mage's spell creates a lightshow when it's finished casting.
