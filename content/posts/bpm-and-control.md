@@ -1,7 +1,7 @@
 ---
 title: "Bullets Per Minute and Control"
 date: 2021-08-17
-draft: true
+draft: false
 ---
 
 ### *Bullets Per Minute* is a fun game.
