@@ -1,13 +1,11 @@
 <!doctype html><html lang=en><head>
-<meta name=generator content="Hugo 0.88.1">
 <meta charset=utf-8>
 <meta name=viewport content="width=device-width,initial-scale=1">
-<title>perfectly spherical </title>
-<meta name=description content="Game Design In Theory">
-<link rel=alternate type=application/rss+xml href=http://perfectly-spherical.com/index.xml title="perfectly spherical">
+<title>perfectly spherical | Minecraft Modpack Dev Is Hell</title>
+<meta name=description content="perfectly spherical - posts - Minecraft Modpack Dev Is Hell">
 <link rel=icon href=/spherical-terminal-orange.svg>
 <link rel=stylesheet href=/css/sk3.css>
-<style>@media only screen and (min-width:993px){:root{--width-card:32%}}:root{--color-bg:#181010}:root{--color-border:#ffb000}:root{--color-link:#ffcc00}:root{--color-txt:#ffb000}:root{--h1-ln-h-using:var(--h2-ln-h);--h1-size-using:var(--h2-size)}</style>
+<style>@media only screen and (min-width:993px){:root{--width-card:32%}}:root{--color-bg:#181010}:root{--color-border:#ffb000}:root{--color-link:#ffcc00}:root{--color-txt:#ffb000}</style>
 <link rel=stylesheet href=/css/sidebar.css>
 <script>openToc=!1</script>
 <script defer src=/js/sk3.js></script>
@@ -19,7 +17,7 @@
 <div class="sk3-flex sk3-pad-h-full sk3-flex-center-h">
 <b>Share</b>
 <sk3-social>
-<a target=_blank rel="noopener noreferrer" href="//twitter.com/intent/tweet/?url=http%3a%2f%2fperfectly-spherical.com%2f&text=perfectly%20spherical" onclick="return window.open(this.href,'Twitter','width=800,height=450,resizable=yes,toolbar=0,status=0'),!1"><svg class="sk3-social-fab"><use xlink:href="#twitter"/></svg>
+<a target=_blank rel="noopener noreferrer" href="//twitter.com/intent/tweet/?url=http%3a%2f%2fperfectly-spherical.com%2fposts%2fmc-dev-is-hell%2f&text=Minecraft%20Modpack%20Dev%20Is%20Hell" onclick="return window.open(this.href,'Twitter','width=800,height=450,resizable=yes,toolbar=0,status=0'),!1"><svg class="sk3-social-fab"><use xlink:href="#twitter"/></svg>
 </a>
 </sk3-social>
 </div>
@@ -42,166 +40,61 @@
 </header><div id=content>
 <div class=main>
 <div></div>
+<heading>
+<h2>Minecraft Modpack Dev Is Hell</h2>
+</heading>
 <div></div>
-<div class="sk3-flex sk3-flex-center-h">
-<sk3-pager>
-<ul class="pagination pagination-default">
-<li class=page-item>
-<a href=/ aria-label=First class=page-link role=button><span aria-hidden=true>&#171;&#171;</span></a>
+<section class="box sk3-margin-v-full">
+<div class=collapsible>☰ Table of Content</div>
+<sk3-toc><nav id=TableOfContents>
+<ul>
+<li>
+<ul>
+<li><a href=#so-about-that-modpack-thing>So about that modpack thing</a></li>
+<li><a href=#mob-spawn-rates-are-dramatically-different-on-multiplayer-servers>Mob spawn rates are dramatically different on multiplayer servers.</a></li>
+<li><a href=#also-armor-calculation-bugs-are-a-thing>Also, armor calculation bugs are a thing.</a></li>
+<li><a href=#development-on-mods-is-inherently-slow>Development on mods is inherently slow.</a></li>
+<li><a href=#minecraft-modpack-development-is-a-special-kind-of-dev-ops-hell>Minecraft modpack development is a special kind of dev-ops hell.</a></li>
+</ul>
 </li>
-<li class=page-item>
-<a href=/ aria-label=Previous class=page-link role=button><span aria-hidden=true>&#171;</span></a>
-</li>
-<li class=page-item>
-<a href=/ aria-label="Page 1" class=page-link role=button>1</a>
-</li>
-<li class="page-item active">
-<a href=# aria-current=page aria-label="Page 2" class=page-link role=button>2</a>
-</li>
-<li class=page-item>
-<a href=/page/3/ aria-label="Page 3" class=page-link role=button>3</a>
-</li>
-<li class=page-item>
-<a href=/page/3/ aria-label=Next class=page-link role=button><span aria-hidden=true>&#187;</span></a>
-</li>
-<li class=page-item>
-<a href=/page/3/ aria-label=Last class=page-link role=button><span aria-hidden=true>&#187;&#187;</span></a>
-</li>
-</ul></sk3-pager>
-</div>
-<div></div>
-<section class="sk3-flex sk3-flex-center-h">
-<div class="sk3-card box">
-<div class=sk3-flex>
-<a class=sk3-flex-inline href=/posts/hwrk-devlog-4/>
-<h3>Hellwave Roadkill Devlog 4</h3>
-</a>
-<div class="sk3-flex-right sk3-flex-down">2021-07-15</div>
-</div>
-<div>Schmovement. It is absolutely essential to me that the movement mechanics feel good to use. More than that&ndash;given the time-attack-esque mechanics of serum and serum consumption, it&rsquo;s important that the player not be limited by movement. It would absolutely suck if the player got lost in a level, and was unable to make it back to a nearby group of enemies before their Serum runs out, due to not having a quick way to get around.</div>
-</div>
-<div class="sk3-card box">
-<div class=sk3-flex>
-<a class=sk3-flex-inline href=/posts/hwrk-devlog-3/>
-<h3>Hellwave Roadkill Devlog 3</h3>
-</a>
-<div class="sk3-flex-right sk3-flex-down">2021-07-08</div>
-</div>
-<div>Sounds Of Death This week, I got a couple important things done, but the one you&rsquo;ll probably wanna hear most is the firing sound I added to the gun!
-The gun makes sound now. #HellwaveRoadkill pic.twitter.com/IpWx8MQ51n
-&mdash; DanBreez (@dan_breez) July 8, 2021 As mentioned in the tweet, this was synthesized from three CC0 sounds. I wanted to do something similar to what Quake 1&rsquo;s sounds were built out of, and I think this came together nicely.</div>
-</div>
-<div class="sk3-card box">
-<div class=sk3-flex>
-<a class=sk3-flex-inline href=/posts/league-part-1/>
-<h3>Your Honor, League of Legends (part 1)</h3>
-</a>
-<div class="sk3-flex-right sk3-flex-down">2021-07-05</div>
-</div>
-<div>Okay but why though Look, League of Legends is huge. It&rsquo;s the game that popularized the model of spending millions of dollars to run an international tournament so that a bunch of impressionable young nerds will spend hundreds on commemorative hero skins and dream of Hitting It Big. League has, rather infamously, 200 years of collective game design experience behind it. It is a household name, either because you play it or because you avoid it like the plague.</div>
-</div>
-<div class="sk3-card box">
-<div class=sk3-flex>
-<a class=sk3-flex-inline href=/posts/hwrk-devlog-2/>
-<h3>Hellwave Roadkill Devlog 2</h3>
-</a>
-<div class="sk3-flex-right sk3-flex-down">2021-06-30</div>
-</div>
-<div>Progress: Slow and Steady Right now I&rsquo;m working part-time at Amazon&ndash;yes, that Amazon. Luckily, I work in an airport warehouse, and it&rsquo;s slightly less hellish here than it is in the dreaded Fulfillment Centers, which are exactly as dreary and dystopian as you&rsquo;d expect. Unluckily, it&rsquo;s still modern capitalism, which means it&rsquo;s still fucked.
-The good news is, I&rsquo;m making steady progress, despite the time I&rsquo;m having to spend away from development.</div>
-</div>
-<div class="sk3-card box">
-<div class=sk3-flex>
-<a class=sk3-flex-inline href=/posts/feedback/>
-<h3>Feedback</h3>
-</a>
-<div class="sk3-flex-right sk3-flex-down">2021-06-29</div>
-</div>
-<div>There are two ways to deal with feedback, and they are both wrong. Broadly speaking, you probably fall into one of two groups.
-The first group is people who believe that the Customer Is Always Right. Sometimes it&rsquo;s because you haven&rsquo;t run into a particularly bad customer yet; sometimes it&rsquo;s because you&rsquo;ve seen all too many games fail because they did something utterly mind-bogglingly stupid; but you firmly believe that players will never lead you astray, because who better to tell you if something is fun than the people playing the game?</div>
-</div>
-<div class="sk3-card box">
-<div class=sk3-flex>
-<a class=sk3-flex-inline href=/posts/hwrk-devlog-1/>
-<h3>Hellwave Roadkill Dev Log 1</h3>
-</a>
-<div class="sk3-flex-right sk3-flex-down">2021-06-24</div>
-</div>
-<div>I&rsquo;m working on a game, in case you didn&rsquo;t know. This might not be as surprising as you&rsquo;d think, depending on how well you know me. I&rsquo;m basically always working on something. That said, a little while ago THIS happened:
-Combination https://t.co/21MhdYvSkx
-&mdash; El Oshcuro (@DaveOshry) June 20, 2021 In case you didn&rsquo;t know, that&rsquo;s the guy who runs New Blood Interactive, which is one of the few publishers I genuinely would love to work with.</div>
-</div>
-<div class="sk3-card box">
-<div class=sk3-flex>
-<a class=sk3-flex-inline href=/posts/minecraft-part-1/>
-<h3>My Love-Hate Relationship With Minecraft, Part 1</h3>
-</a>
-<div class="sk3-flex-right sk3-flex-down">2021-06-22</div>
-</div>
-<div>Minecraft is kind of a big deal. It&rsquo;s one of the most popular and most profitable games of the 2010s. It lost the status of Most Popular Ever to Fortnite, but it&rsquo;s still going strong, with a rabidly loyal fanbase and new content constantly on the way. Its simple premise of a world that can be built and broken on a whim drove it to the height of pop-culture awareness early on, and pretty soon it started getting things like monsters, survival mechanics, dungeons, villages, more monsters, more ways to fight those monsters, new dungeons, new treasures, new bossfights&mldr;</div>
-</div>
-<div class="sk3-card box">
-<div class=sk3-flex>
-<a class=sk3-flex-inline href=/posts/im-reloading/>
-<h3>I'M RELOADING</h3>
-</a>
-<div class="sk3-flex-right sk3-flex-down">2021-06-17</div>
-</div>
-<div>Why, exactly, should this gun reload? I want to start by saying that, even though I fucking love boomershooters, this isn&rsquo;t coming from a &ldquo;Doom didn&rsquo;t have reloading so neither will I!&rdquo; point of view. This is not about cargo cultism. This is not about elitism. This isn&rsquo;t about whether or not games have gotten worse over the past 20 years (maybe) or why they&rsquo;ve gotten worse (it&rsquo;s not any one thing).</div>
-</div>
-<div class="sk3-card box">
-<div class=sk3-flex>
-<a class=sk3-flex-inline href=/posts/small-games/>
-<h3>Small Games</h3>
-</a>
-<div class="sk3-flex-right sk3-flex-down">2021-06-15</div>
-</div>
-<div>STOP MAKING SUCH HUGE GAMES. HOLY SHIT. A little while ago, Ratchet and Clank: Rift Apart launched. The folks announcing it were proud to say that they got it done without crunch. They rolled the game out the door (to the tune of 70 dollars) without a single case of pushing their workers too hard to make up for a bad schedule.
-And then people started complaining that tiny details were missing.</div>
-</div>
-<div class="sk3-card box">
-<div class=sk3-flex>
-<a class=sk3-flex-inline href=/posts/delta-ttk/>
-<h3>What Does Delta TTK Mean?</h3>
-</a>
-<div class="sk3-flex-right sk3-flex-down">2021-06-10</div>
-</div>
-<div>Time To Kill is a measurement of how long it takes for a player to defeat another player in a PVP game. It&rsquo;s mostly used in the first person shooter sphere, especially in games with many players running around the same map. Games with high TTK, like Halo, can feel forgiving&ndash;or they can feel like they&rsquo;re being played in slow-motion. Games with low TTK, like Counter-Strike, can be exciting and fast-paced&ndash;or they can feel exceptionally difficult, like playing chess against a grandmaster.</div>
-</div>
+</ul>
+</nav></sk3-toc>
 </section>
+<content class=sk3-margin-v-full><h3 id=so-about-that-modpack-thing>So about that modpack thing</h3>
+<p>DevOps for Minecraft is absolute hell. Let me regale you with some tales of the shit I&rsquo;ve gone through in the past day:</p>
+<h3 id=mob-spawn-rates-are-dramatically-different-on-multiplayer-servers>Mob spawn rates are dramatically different on multiplayer servers.</h3>
+<p>I have a mod in this pack called Scape & Run: Parasites. It adds freaky biological horrors, a la the Flood. It&rsquo;s actually quite well designed and I like the concepts behind it, with the parasites getting stronger as they consume more biomass. However, in my singleplayer playthroughs, they never spawned in large enough quantities to be a problem early on.</p>
+<p>In multiplayer, they spawn like <em>CRAZY</em>. Our first night was plagued by horrors. We repeatedly died to everything from infested sheep to massive poison-stinger beasts because they just <em>would not stop spawning</em>.</p>
+<p>As a result, I&rsquo;ve had to implement a whole freakin' gating mechanic via the Game Stages mod and its addons. Now I have a system where the swarm will go 40 minutes off, 20 minutes on with its spawns, starting from when you read some stained research notes that an unfortunate scientist left behind. It&rsquo;s nice, but it was driven almost entirely by the fact that monster spawns are wildly different in Multiplayer.</p>
+<h3 id=also-armor-calculation-bugs-are-a-thing>Also, armor calculation bugs are a thing.</h3>
+<p>I added Armor Curve shortly before I started playing with my friends. &ldquo;Why wouldn&rsquo;t I?&rdquo; I asked myself. &ldquo;It&rsquo;s a great mod that fixes a real problem with Minecraft&rsquo;s design!&rdquo;</p>
+<p>What is that problem, exactly? It&rsquo;s the fact that iron-to-diamond more than doubles your time to death, even though it&rsquo;s a much smaller jump than leather-to-iron. Ever wondered why leather feels useless compared to iron? It&rsquo;s because they both pale in comparison to diamond, but iron at least is <em>sort of</em> useful. Armor Curve rebalances this with diminishing returns&ndash;full leather armor provides about 50% protection now, while diamond sits around the same level it used to be.</p>
+<p>There&rsquo;s just one problem: TechGuns has its own armor system. And it applies <em>multiple</em> armor values to each attack&ndash;which are, apparently, overridden by Armor Curve&rsquo;s new calculations. So, effectively, the TechGuns armor applies way more armor than it should.</p>
+<p>This would be sort of okay for the players&ndash;the TG armor is just generally more powerful thanks to its movement, knockback, and mining speed bonuses&ndash;but it turns out many of TechGuns' mobs spawn <em>equipped</em> with that armor. Which makes them godawful to fight, especially before you&rsquo;ve gotten access to guns.</p>
+<p>So I had to turn off the armor curve system for all non-player mobs. Because, frankly, it was absurd. Seven or eight sword swings to deal with <em>one</em> armored zombie, and more than one was a death sentence, especially if they had any kind of gun. I don&rsquo;t <em>like</em> that. I shouldn&rsquo;t have to drastically change the mechanics for all monsters to make them bearable. But the alternative is having to dig into Java, which brings me to one of the root issues&mldr;</p>
+<h3 id=development-on-mods-is-inherently-slow>Development on mods is inherently slow.</h3>
+<p>This is not a complaint against mod developers. They have their hands full. Most of them are dealing with things IRL that are more important than modding, and that&rsquo;s okay. Development takes time and effort, time and effort that we don&rsquo;t always have, and that&rsquo;s okay. In an ideal world, we&rsquo;d have the freedom to spend that time however we choose, instead of having to spend so much of it on survival&ndash;but we do not live in an ideal world, yet.</p>
+<p>The downside of this is that bugs regularly get left open for months or years. It&rsquo;s often easier for me to simply swap a mod out than to try and report an error&ndash;which only serves to make the problem worse, as bugs go completely unreported because users are trained to look for alternatives instead of hope for a fix.</p>
+<p>It does not help at <em>all</em> that Java is the language you have to deal with. Java is a pain in the <em>ass</em>. You cannot pay me enough to make me deal with it. It&rsquo;s full of horrible design decisions, and Forge is even <em>worse</em>. It <em>also</em> doesn&rsquo;t help that Forge&rsquo;s leadership is basically convinced that it&rsquo;s not their job to explain how to use the tools they made.</p>
+<p>Worse yet, errors from these mods are incomprehensible, and often nearly impossible to reproduce. I had to replace a backpack mod that had only caused occasional crashes on my end, because it caused <em>constant</em> crashes for one of the others. Occasionally, a crash happens the first time I launch and <em>never again</em>. It is nearly impossible to say which mod is causing a bad interaction&ndash;doubly so because it may not even be any of the mods mentioned in the stacktrace. And if it&rsquo;s <em>not</em> a crash, it&rsquo;s hard to test, because of the sheer size of a modern modpack. The one I&rsquo;m working with is nearing 200 mods, with some mods adding dozens of monsters or blocks&ndash;how do I know that damage values for a given mob make sense? That <em>armor</em> makes sense? If I were developing something on my own, I could build in automated testing, but because it&rsquo;s Java and I refuse to touch Java, I&rsquo;m stuck with what exists, which is manually testing combat.</p>
+<h3 id=minecraft-modpack-development-is-a-special-kind-of-dev-ops-hell>Minecraft modpack development is a special kind of dev-ops hell.</h3>
+<p>And I cannot <em>wait</em> to build something better. Eventually. When I have money to hire other people.</p>
+</content>
 <div></div>
-<div class="sk3-flex sk3-flex-center-h">
-<sk3-pager>
-<ul class="pagination pagination-default">
-<li class=page-item>
-<a href=/ aria-label=First class=page-link role=button><span aria-hidden=true>&#171;&#171;</span></a>
-</li>
-<li class=page-item>
-<a href=/ aria-label=Previous class=page-link role=button><span aria-hidden=true>&#171;</span></a>
-</li>
-<li class=page-item>
-<a href=/ aria-label="Page 1" class=page-link role=button>1</a>
-</li>
-<li class="page-item active">
-<a href=# aria-current=page aria-label="Page 2" class=page-link role=button>2</a>
-</li>
-<li class=page-item>
-<a href=/page/3/ aria-label="Page 3" class=page-link role=button>3</a>
-</li>
-<li class=page-item>
-<a href=/page/3/ aria-label=Next class=page-link role=button><span aria-hidden=true>&#187;</span></a>
-</li>
-<li class=page-item>
-<a href=/page/3/ aria-label=Last class=page-link role=button><span aria-hidden=true>&#187;&#187;</span></a>
-</li>
-</ul></sk3-pager>
-</div>
-<div class="sk3-flex sk3-flex-center-h">
+<section class=sk3-margin-v-full>
+<div class="sk3-flex sk3-flex-center-h box sk3-margin-v-full">
 <sk3-social>
-<a href=//twitter.com/dan_breez><svg class="sk3-social-fab"><use xlink:href="#twitter"/></svg></a>
-<a href=/index.xml><svg class="sk3-social-fab"><use xlink:href="#rss"/></svg></a>
+<a target=_blank rel="noopener noreferrer" href="//twitter.com/intent/tweet/?url=http%3a%2f%2fperfectly-spherical.com%2fposts%2fmc-dev-is-hell%2f&text=Minecraft%20Modpack%20Dev%20Is%20Hell" onclick="return window.open(this.href,'Twitter','width=800,height=450,resizable=yes,toolbar=0,status=0'),!1"><svg class="sk3-social-fab"><use xlink:href="#twitter"/></svg>
+</a>
 </sk3-social>
 </div>
+<div class="sk3-flex sk3-margin-v-full">
+<div class=sk3-flex-right>Update: 2021-09-09</div>
+</div>
+<h3 class=sk3-flex>
+<a href=/posts/minecraft-lp/>&lt;&lt; Minecraft: The Perfectly Spherical LP</a>
+</h3>
+</section>
 <div></div>
 </div>
 </div><footer class="sk3-flex sk3-flex-center-h sk3-margin-v-full sk3-pad-v-full">
@@ -212,12 +105,16 @@ And then people started complaining that tiny details were missing.</div>
 <div class="sk3-pad-h txt-center-h">Power by <a href=//gohugo.io>Hugo</a>.</div>
 <div class="sk3-pad-h txt-center-h">Theme <a href=//github.com/J-Siu/hugo-theme-sk3/>SK3</a> by <a href=//github.com/J-Siu/>J-Siu</a>.</div>
 </footer>
-<meta property="og:title" content="perfectly spherical">
-<meta property="og:description" content="Game Design In Theory">
-<meta property="og:type" content="website">
-<meta property="og:url" content="http://perfectly-spherical.com/"><meta property="og:site_name" content="perfectly spherical">
+<meta property="og:title" content="Minecraft Modpack Dev Is Hell">
+<meta property="og:description" content="So about that modpack thing DevOps for Minecraft is absolute hell. Let me regale you with some tales of the shit I&rsquo;ve gone through in the past day:
+Mob spawn rates are dramatically different on multiplayer servers. I have a mod in this pack called Scape & Run: Parasites. It adds freaky biological horrors, a la the Flood. It&rsquo;s actually quite well designed and I like the concepts behind it, with the parasites getting stronger as they consume more biomass.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="http://perfectly-spherical.com/posts/mc-dev-is-hell/"><meta property="article:section" content="posts">
+<meta property="article:published_time" content="2021-09-09T00:00:00+00:00">
+<meta property="article:modified_time" content="2021-09-09T00:00:00+00:00"><meta property="og:site_name" content="perfectly spherical">
 <meta name=twitter:card content="summary">
-<meta name=twitter:title content="perfectly spherical">
-<meta name=twitter:description content="Game Design In Theory">
+<meta name=twitter:title content="Minecraft Modpack Dev Is Hell">
+<meta name=twitter:description content="So about that modpack thing DevOps for Minecraft is absolute hell. Let me regale you with some tales of the shit I&rsquo;ve gone through in the past day:
+Mob spawn rates are dramatically different on multiplayer servers. I have a mod in this pack called Scape & Run: Parasites. It adds freaky biological horrors, a la the Flood. It&rsquo;s actually quite well designed and I like the concepts behind it, with the parasites getting stronger as they consume more biomass.">
 </body>
 </html>
