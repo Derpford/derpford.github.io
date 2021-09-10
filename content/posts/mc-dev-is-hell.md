@@ -14,7 +14,9 @@ I have a mod in this pack called Scape & Run: Parasites. It adds freaky biologic
 
 In multiplayer, they spawn like *CRAZY*. Our first night was plagued by horrors. We repeatedly died to everything from infested sheep to massive poison-stinger beasts because they just *would not stop spawning*.
 
-As a result, I've had to implement a whole freakin' gating mechanic via the Game Stages mod and its addons. Now I have a system where the swarm will go 40 minutes off, 20 minutes on with its spawns, starting from when you read some stained research notes that an unfortunate scientist left behind. It's nice, but it was driven almost entirely by the fact that monster spawns are wildly different in Multiplayer.
+~~As a result, I've had to implement a whole freakin' gating mechanic via the Game Stages mod and its addons. Now I have a system where the swarm will go 40 minutes off, 20 minutes on with its spawns, starting from when you read some stained research notes that an unfortunate scientist left behind. It's nice, but it was driven almost entirely by the fact that monster spawns are wildly different in Multiplayer.~~
+
+[EDIT] Guess what doesn't fucking work? The timer mechanic. So that's not happening anymore. Swarm still starts *after* a research book is found, though.
 
 ### Also, armor calculation bugs are a thing.
 
