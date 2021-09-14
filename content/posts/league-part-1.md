@@ -43,4 +43,4 @@ is the point I'm getting at here. There is a marked, clear difference between a 
 
 I don't really know how much research has been done on this, but to my knowledge the discussion about toxicity has focused mostly on *what to do about it*, not *why it happens*, and I think that's a mistake. We need to understand the how and why to make a call on the what.
 
-This is *also* gonna be a multipart series. Next time, I'll be talking about readability, learning, and how League's complex design is undermined by the way it emphasizes things that don't really have a lot to do with playing the game better.
+This is *also* gonna be a multipart series. [Next time](perfectly-spherical.com/posts/league-part-2), I'll be talking about readability, learning, and how League's complex design is undermined by the way it emphasizes things that don't really have a lot to do with playing the game better.
