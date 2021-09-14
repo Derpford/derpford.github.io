@@ -18,6 +18,10 @@ aside {
 	margin: auto;
 }
 
+h4 {
+	text-align: center;
+}
+
 
 @media (max-width: 800px) {
 	aside {
