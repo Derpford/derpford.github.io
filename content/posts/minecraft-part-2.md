@@ -8,7 +8,7 @@ tag: "Minecraft"
 ### Diamond is powerful.
 Everyone knows this. The diamond sword and pick are as iconic as Steve and the Creeper. Efforts to cosplay as Steve inevitably involve some diamond armor. The game is practically built around diamond as the god-tier equipment.
 
-Let's talk about why this sucks. (This is a continuation of [part 1](http://perfectly-spherical.tk/posts/minecraft-part-1/).)
+Let's talk about why this sucks. (This is a continuation of [part 1](http://perfectly-spherical.com/posts/minecraft-part-1/).)
 
 ### It Made Sense At The Time
 because, when *Minecraft* was first developed, three important things were true:
