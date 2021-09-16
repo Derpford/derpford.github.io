@@ -1,7 +1,7 @@
 ---
 title: "Dr. Strangeloot (MLHRWM, Part 3)"
 date: 2021-09-16
-draft: true
+draft: false
 ---
 
 ### Or, How I Learned To Stop Worrying And Farm The Drops.
