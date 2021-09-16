@@ -38,4 +38,4 @@ And "I don't understand what I'm looking at" is a problem that mobas in *general
 
 I don't know if this problem can be solved. Part of the *appeal* of League of Legends is in that complexity--in having the flexibility to build champions in weird ways, and having the ability to influence the lategame with careful or skillful play in the early game. I'm sure there's a lot of League fans who will balk at the idea of removing last-hitting, because it rewards good timing and smart positioning with a tangible advantage throughout the game. This doesn't change the fact that League's design makes it hard for new players to understand why they're losing.
 
-In [Part 1](perfectly-spherical.com/league-part-1), I talked about teamplay and team reliance. Check out [Part 3](perfectly-spherical.com/league-part-3), where I talk about how important counterplay is to a good game experience. 
+In [Part 1](perfectly-spherical.com/posts/league-part-1), I talked about teamplay and team reliance. Check out [Part 3](perfectly-spherical.com/posts/league-part-3), where I talk about how important counterplay is to a good game experience. 

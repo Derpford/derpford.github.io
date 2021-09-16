@@ -69,4 +69,4 @@ Another thing that needs to be considered is whether the counterplay is *obvious
 
 This is *good* design. It *shows* the player what to do through the things they see on their screen, and thus gives them a way to learn interactively what to do about Jhin. What Irelia really needs is just some kind of audio/animation cue for when she's got her stacks and is ready to engage--or maybe she already has one, and I simply haven't noticed it yet. (You don't want subtlety in these things--you need to make the key information obvious.)
 
-Don't forget to check out the [previous article](perfectly-spherical.com/league-part-2), where I talked more about the idea of 'discoverability' (AKA making counterplay obvious). <!--Part 4 link here.-->
+Don't forget to check out the [previous article](perfectly-spherical.com/posts/league-part-2), where I talked more about the idea of 'discoverability' (AKA making counterplay obvious). <!--Part 4 link here.-->

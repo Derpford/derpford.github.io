@@ -46,3 +46,5 @@ Meanwhile, the hunger mechanics *currently* in Minecraft are built for a game wh
 
 ### It's A Series!
 The next several parts of this series will be deep dives on specific mechanics and why they suck. I'll leave you with a quote from G.K. Chesterton: "We must hate the world enough to change it, and yet love the world enough to think it worth changing." I'm not writing this because I *only* hate Minecraft; if I only hated it, I would not play it. I am writing this because I love Minecraft, and love what it *can* be, and hate that it falls short.
+
+Check out part 2 [here](perfectly-spherical.com/posts/minecraft-part-2).
