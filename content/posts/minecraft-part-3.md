@@ -52,4 +52,4 @@ Ah, but here's the trick: You're making constant, steady progress *towards* that
 
 It's bad. It's *really* bad. You end up screwing some percentage of your userbase super hard. If you *really* have to, add some kind of backup method. Otherwise, your players will wander around the world, looking for something that *should* drop at a 50% rate and yet has not dropped once.
 
-Go back and check out [Part 2](perfectly-spherical.com/posts/minecraft-part-2) and learn why that 50% drop rate on Blaze Rods ruins potion-making.
+Go back and check out [Part 2](https://perfectly-spherical.com/posts/minecraft-part-2) and learn why that 50% drop rate on Blaze Rods ruins potion-making.
