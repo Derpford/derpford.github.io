@@ -1,7 +1,7 @@
 ---
 title: "All the Gold, And the Guns"
 date: 2021-11-09
-draft: true
+draft: false
 ---
 
 ### Deep Rock Galactic just added four new guns.
