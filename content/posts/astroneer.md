@@ -1,7 +1,7 @@
 ---
 title: "Astroneer, or, how to do survival games right"
-date: 2021-10-19
-draft: true
+date: 2021-11-23
+draft: false
 ---
 
 ### Astroneer is the only "survival" game I've genuinely enjoyed.

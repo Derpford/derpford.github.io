@@ -1,0 +1,41 @@
+---
+title: "Survival Versus Basebuilding"
+date: 2021-11-16
+draft: false
+---
+
+### TBH, the Minecraft blogposts could only end this way.
+
+I'm no longer talking about *just* Minecraft. Minecraft itself is bad, but it also inspired a plethora of other games, many of which lean on the same concepts and fall to the same flaws. This is the final hot take, which will unite all the shitty game design decisions in one syrupy, inexplicably-orange soup of games that I don't really enjoy. This is the End of Minecraftvangelion, and yes, that phrase IS cursed as fuck.
+
+### I just don't get survival games.
+
+On a fundamental level, I do not understand the appeal. Doubly so because it seems that survival games are designed around being painfully slow to play, and not in the incrementalist idle-game way either.
+
+Minecraft's farming and food mechanics, for instance, do not present any kind of engaging challenge, nor do they provide opportunities for build theory or strategizing for the future. The most strategic you can get with Minecraft's farming is having a milk bucket to clear negative potion effects, which is useful against maybe one enemy and one boss in the base game.
+
+Similarly, the food mechanics in other survival games seem to exist solely for the purpose of making the player sit still for a while. Some games, like Unturned, add more meters to track; food, but also water, and a meter for how close you are to dying of an awful infection. This adds a paper-thin layer of mechanical complexity, but ultimately suffers from the same problem that Minecraft's food/hunger system has: There's nothing interesting about choosing what to eat next, and the hunger system tends to simply punish the player for not getting the right kind of item--which gets even worse in Unturned's case, because in Unturned your primary source of food is random item spawns in houses. On top of that, Unturned is a *zombie* survival game, which leads into the next problem:
+
+### The combat sucks.
+
+And I don't just mean that it's boring. Minecraft's combat is an unrewarding slog, and other survival games seem to use "unrewarding slog" as the baseline. Unturned, like other survival games, turns this up to 11--zombies are not only a pain to fight, they're also lethal. Melee weapons break over time, of course, and ranged weapons that aren't the bow or crossbow will draw the horde. Melee combat boils down to a simple resource test--spend stamina to hit enemy, hope that your improvized whacking stick doesn't break, walk backward, repeat until zombie dead. It's time-consuming, typically involves at least *some* health loss, and always involves some resource loss because no matter how hard you try, punching zombies to death isn't gonna work out well for you. On top of that, zombies are usually spawned around or inside buildings--which theoretically makes fighting them worthwhile, but in practice, the random number generator just does not like you.
+
+Games that deal with food successfully can fall flat in the combat area, too. For instance, Vintage Story--a game based on some of TerraFirmaCraft's better design decisions--has an in-depth farming system, as well as a "cellar" system for reducing food decay, which makes the process of gathering and storing food mechanically interesting. You'll want to rotate your crops to minimize soil depletion, build an underground structure for storing your food away from light and heat, aaaaand die on night one to monsters that seem entirely too deadly. Whoops! See, one of the design decisions that Vintage Story borrows from TerraFirmaCraft is this strange insistence that flint tools and weapons should break after about 15 swings. It's not like flint is [known for being more durable than other rocks](https://en.wikipedia.org/wiki/Flint) or anything.
+
+Because earlygame tools in both TerraFirmaCraft and Vintage Story are so incredibly easy to break, combat in the early-game suffers from a sense of overwhelming unfairness. You have to go through an entire spear to kill *one* enemy, a process that seems to go on forever due to your weapons having low damage output as well as low durability--and then you have to fight the second zombie, because both TerraFirmaCraft and Vintage Story borrow Minecraft's monster spawn rate. They also both borrow Minecraft's contact damage, which continues to be inexcusable in a first-person game. Also, Vintage Story makes its zombies one meter tall, because they apparently think the Baby Zombie was a good idea. Fuck them. Whoever added the Baby Zombie needs to be shot.
+
+### The fun part is never the survival mechanics.
+
+There are "survival" games I've enjoyed--and Vintage Story *is* one of them, despite how godawful the early-game combat is. But the part I'm enjoying is almost never the part that people point to as the part that makes them survival games.
+
+For instance, Scrap Mechanic is technically a survival game, because it has hunger and thirst mechanics. However, it *also* has a system for building both vehicles and stationary contraptions, which can be used for resource gathering or for defending your crops. It also adds a wave-defense mechanic--once you start farming, you'll start to face daily invasions from hostile robots, trying to destroy your unauthorized farming operation. The part I enjoy is not the fact that I need to stop and eat a veggie burger every so often; it's the part where I get to build a mobile mining rig to gather minerals and ore more efficiently so I can build a larger, more robust defensive installation for my farm. I don't care about the farming system in Scrap Mechanic, I care about running over robots in my scrap-wood big-rig bristling with drills, laughing all the while.
+
+Then there's games like Valheim. Valheim calls itself a survival game, and it technically has farming in it. But it doesn't have *hunger*, near as I can tell. Instead of a hunger system, Valheim has a mechanic where foods grant you additional stamina and increase your max health, and different foods let you specialize into different things, with up to three food items active at any given time. It's not a survival game. It's an RPG with a food-themed coat of paint over its progression system and the ability to build a house. Similarly, Valheim has durability mechanics, but repairing your tools doesn't cost anything--you just need to hit up a workbench.
+
+Even the games where I *enjoy* the farming system aren't really about having to eat to survive. Vintage Story's cellar system is the most interesting part of the game, to me--the threat of starvation is just how the game pushes me to engage with it. And, in truth, the base game makes your early food supply painfully hard to get--which is why I typically install a mod that adds a few different kinds of traps and snares, as well as passive fishing tools like trot lines. That way, instead of having to slog through combat with a wild hog to gather meat and tallow, I can wait for a rabbit to wander into one of my snares and keep a supply of fish hanging on my wall.
+
+In short: I don't care for the grind. I'm not here to stare at a lake, fishing rod in hand, wondering if the Random Number Gods will bless me with enough food to live another Minecraft day. I'm not here to sit in a 1x2 hole in the dirt and try to guess at when dawn will come, hoping that I won't get mugged by a pair of two-foot-high zombie mole things (seriously, why did Vintage Story decide that its zombies had to be even more annoying than Minecraft's zombies?).
+
+What I care about is the incremental improvements. Building up from scratch, and I mean *BUILDING* up from scratch, not just sitting in a hole every night until I luck out and find enough copper to cross the arbitrary line that lets me play the fucking game already. I enjoyed Valheim, Vintage Story, and Scrap Mechanic for the same reason: All three games take some of the focus *away* from the everyday slog of hunting, gathering, and farming, and replaced that with *base-building*. Instead of gathering resources to stand still, I was gathering resources to push *forward*.
+
+And there's one game that rises above all of these, because it eschews both combat and grind to focus entirely on that base-building. I'll be talking about that a bit next week.
