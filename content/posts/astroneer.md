@@ -8,7 +8,7 @@ draft: false
 
 This is kind of a complicated statement, because there are some games that are *called* survival games which I don't consider to be survival games. For example, Valheim is considered a survival game, but to my knowledge, it has no starvation mechanic, which places it firmly in the action-RPG camp for me.
 
-In order to be a survival game, a game must have some resource which the player needs in constant supply--food, water, et cetera. This is also the reason I *hate* most survival games.
+In order to be a survival game, a game must have some resource which the player needs in constant supply--food, water, et cetera. This is also the reason I *hate* most survival games. First, a quick recap of the previous post:
 
 ### Grind is not interesting.
 
@@ -28,4 +28,12 @@ It helps that it doesn't bother with combat. So many survival games just slap co
 
 In short, Astroneer *does not waste the player's time*. It doesn't demand repeated, menial tasks, nor does it spend time on a half-assed combat system. 
 
-(I'll talk about the UI in a later post, because it deserves a post of its own.)
+### Also there's basebuilding.
+
+So I touched on this in the [last post](https://perfectly-spherical.com/posts/end-of-minecraftvangelion/): the fun part of "survival" games, for me, is creating a base of operations and expanding it to support my adventures. I don't care about farming, really; I care about building toward a big journey. This is why games where your food supply is extremely limited or tied to one location tend to frustrate me. This is *also* why games like Unturned, where food is unreliable due to loot RNG, just kinda piss me off.
+
+Astroneer starts with infinite oxygen and energy, but it very quickly gives you a new thing to spend resources on: machinery. You can leapfrog from the smallest size of 3D printer to the largest size within half an hour, and these printers enable you to make all sorts of neat machinery. From furnaces to melt down minerals to research facilities, you'll be building ever-larger structures to support your expansion--oh, and each machine will automatically take materials from any inventory on the same platform. This gets even more powerful thanks to your ability to easily drag and drop entire storage racks between mounting points--take a storage unit off your tractor and place it on the furnace platform, and it'll start smelting right away.
+
+Each platform you place *also* provides oxygen and energy to your suit, once it's hooked up to your main habitat, so the more you build, the less you need to rely on tethers. The further you progress in the tech tree, the more options you unlock for expanding your base--and the more you expand your base, the more room you have to wander around in. Once you have vehicles, you basically never have to worry about air outside of the base again, though you do have to worry about depleting the tractor's batteries. Good thing you can just make more batteries and strap them onto the storage unit on your tractor's trailer! Objects continue to function even when they're sitting in an inventory slot--hell, you can pick up a battery and strap it to your backpack, and it'll supplement your suit's main supply. Loathe as I am to use this phrase, everything just *works*, and it enables all sorts of fun ways to explore, expand, and experiment.
+
+And that's what I'm here for. I don't care about managing my oxygen supply, so Astroneer makes oxygen management simple: Either you're hooked up to an oxygenator, or you've got X seconds to find one again. I don't care about managing my energy supply, second verse, same as the first. What I care about is building on a small foundation until I can explore the whole planet, and Astroneer delivers.
