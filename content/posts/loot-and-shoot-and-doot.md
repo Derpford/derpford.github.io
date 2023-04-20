@@ -1,7 +1,7 @@
 ---
 title: "Loot and Shoot and Doot"
 date: 2023-04-20
-draft: true
+draft: false
 ---
 ### You're doing looter shooters wrong.
 I understand this is a big claim. A bold claim, even. But just about everyone who's doing looter-shooters is doing it wrong. 
