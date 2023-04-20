@@ -6,7 +6,7 @@ draft: false
 ### You're doing looter shooters wrong.
 I understand this is a big claim. A bold claim, even. But just about everyone who's doing looter-shooters is doing it wrong. 
 
-This is partly related to something I brought up in (another blogpost)[https://perfectly-spherical.com/posts/shake-it-up/], so you may wanna read that one first, especially the bit about Minecraft Dungeons and how it handles gear churn. I'm not gonna go into details here because I already wrote about it.
+This is partly related to something I brought up in [another blogpost](https://perfectly-spherical.com/posts/shake-it-up/), so you may wanna read that one first, especially the bit about Minecraft Dungeons and how it handles gear churn. I'm not gonna go into details here because I already wrote about it.
 
 So, let's start with a question: What is the point of a looter-shooter, a Diablo-like, or any other game where your gameplay loop is all about finding cool shit?
 
