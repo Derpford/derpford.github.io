@@ -91,4 +91,4 @@ And it's going to have to be a multi-parter, I think, because there's a bunch of
     2. We can *also* change *how much* gold and XP you get from a wave.
     3. We can even try making it harder to get kills *under tower*, so that there's a clear way to deal with an enemy who's being way too aggressive.
     
-In the [next post](perfectly-spherical.com/posts/deep-dive-2), I'll break down how these changes would work, why I think they'd fix things, and what negative side effects they might have.
+In the [next post](https://perfectly-spherical.com/posts/deep-dive-2), I'll break down how these changes would work, why I think they'd fix things, and what negative side effects they might have.
